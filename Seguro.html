@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro</title>
+    <link rel="stylesheet" href="Seguro.css">
+    <script src="SeguroEleccion.js"></script>   
+   
+</head>
+<body>
+
+    <!-- Titulo -->
+    <div class="myTitle">
+    
+        <div class="WordsTitle">
+            <h1>SEGURO</h1>
+            <h2>No pagamos Cooperativa</h2>
+
+        </div>
+
+    </div>
+
+    
+    <!-- Formulario -->
+
+    <form action="">
+        
+        <div class="formulario">
+            <ul class="tabla">
+                
+                <div class="CajaLista CajaListaTitle" >
+                    <div class="description">
+                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, magni quam nemo sapiente fuga totam aspernatur reiciendis vel! Nihil reprehenderit culpa ullam cum praesentium quisquam nulla repellat aut perspiciatis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi accusamus facere odit autem illum molestias reprehenderit! Repellat eum provident adipisci, nulla dolore quaerat exercitationem nobis libero ipsam magni quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    
+                    
+                    <h2>Coloque sus datos y seleccione el tipo de seguro</h2>
+                    <input type="text" class="lista"  name="nombre" placeholder="Nombre"     id="nombre_id" required>
+                    <input type="text" class="lista"  name="Apellido" placeholder="Apellido" id="apellido_id" required>
+                    <input type="text" class="lista"  name="DNI" placeholder="DNI"           id="dni_id" required>
+                    <input type="text" class="lista"  name="Email" placeholder="Email"       id="email_id" required>
+                    <input type="text" class="lista"  name="Telefono" placeholder="Telefono" id="telefono_id" required>
+                    <!-- Tipos de Seguros -->
+                
+                    <div><h1>Elija el Tipo de Seguro</h1></div>
+                                <div class="typeSeguro">
+                                <!-- Seguro Basico -->
+                                    <div class="Basic">
+                                        <button onclick="getSelecction('Basico'); return false" class="contenedorImagen">
+                                            <div class="">
+                
+                                                <img src="SeguroBasico.jpg" alt="">
+                
+                                                <div class="textoImagen">
+                                                    
+                                                </div>
+                
+                                                <div class="textoCentrado">
+                                                    <h1>Basico</h1>
+                                                    <h1>$500</h1>
+                                                    
+                                                </div>
+                
+                                            </div>
+                                        </button>
+                                    </div>
+                    
+                                <!-- Seguro Intermedio -->
+                                    <div class="Intermedio">
+                                        <button onclick="getSelecction('Intermedio'); return false" class="contenedorImagen">
+                                            <div class="">
+                                                <img src="SeguroIntermedio.jpg" alt="">
+                        
+                                                    <!--TextoImagen: lo usamos para centrar el texto en la imagen  -->
+                                                    <div class="textoImagen"></div>
+                        
+                                                    <div class="textoCentrado">
+                                                        <h1>Intermedio</h1>
+                                                        <h1>$1000</h1>
+                                                        
+                                                    </div>
+                
+                                            </div>
+                                        </button>
+                                    </div>
+                    
+                
+                                <!-- Seguro Premium -->
+                                    <div class="Premium">
+                                        <button onclick="getSelecction('Premium'); return false" class="contenedorImagen">
+                                            <div class="">
+                                                <img src="SeguroPremium.jpg" alt="">
+                    
+                                                    <div class="textoImagen"></div>
+                    
+                                                    <div class="textoCentrado">
+                                                        <h1>Premium</h1>
+                                                        <h1>$1500</h1>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </button>
+                                        </div>
+                                        
+                                    </div>
+
+                            <!--Datos ingresados  -->
+                            <div id="answer"></div>
+                </div>
+       
+            </ul>
+            </form>
+            
+
+
+    </div>
+
+    
+
+    <footer>Diseñado por Leonel Bellabarba</footer>
+
+    
+    
+</body>
+</html>

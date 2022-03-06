@@ -47,9 +47,11 @@ body{
     color: rgb(199, 212, 219);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgba(27, 53, 107, 0.39);
-    padding: 2%;
+    padding: 1%;
     text-align: center;
     transition: all 1.5s ease;
+    width: 80%;
+    margin-left: 8%;
 }
 
 .description:hover{

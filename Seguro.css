@@ -80,24 +80,30 @@ body{
     font-size: 30px;
     display: block;
     border-radius: 4px;
-    border: 4px solid rgba(42, 103, 182, 0.5);
+    border: 4px solid rgb(18, 55, 102);
     color: white; 
     background-color: rgba(8, 22, 34, 0.792);   
 
 }
 
 .CajaLista{
-    background-color: rgba(16, 38, 85, 0.7); 
+    background-color: rgba(29, 65, 141, 0.877); 
     padding: 2%;
-    width: 120%;
-    margin-left: -10%;
+    width: 80%;
+    margin-left: 7%;
     margin-top: 2%;
+    border-radius: 5%;
 }
 
 
 #nombre_id, #apellido_id, #dni_id,
 #email_id, #telefono_id{
-    color: rgb(183, 198, 207);
+    color: rgb(7, 11, 32);
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    
+    
+    
 } 
 
 
@@ -109,8 +115,17 @@ body{
 
 .typeSeguro{
     display: inline-flex;
-    margin-right: 12%;
+    margin-left: 8%;
 }
+
+.typeSeguroTitle{
+    font-size: 20px;
+    color: rgb(229, 235, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 4px 4px black;
+}
+
 
 .Basic, .Intermedio, .Premium{
     margin-right: 10%;
@@ -122,7 +137,7 @@ body{
     padding: 0;
     transition: all 1s ease;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px solid rgba(14, 20, 51, 0.568);
     filter: grayscale(80%);
 }
@@ -158,11 +173,13 @@ body{
 .CajaListaTitle{
     font-size: 25px;
     color: rgb(229, 235, 238);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     /* text-shadow: 2px black; */
     padding: 2%;
     text-align: center;
     text-shadow: 4px 4px black;
+    width: 40%;
+    margin-left: 27%;
     
 }
 
@@ -185,16 +202,23 @@ body{
     background-color: rgba(27, 52, 107, 0.651);
     padding: 2%;
     margin-top: 2%;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
 }
 
 
 
 footer{
-    background-color: rgb(28, 83, 100);
-    font-size: 20px;
+    background-color: rgb(20, 42, 83);
+    color: rgb(173, 188, 200);
+    text-shadow: 2px 2px black;
+    font-size: 25px;
     text-align: center;
     height: 40px;
     margin-top: 2%;
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
